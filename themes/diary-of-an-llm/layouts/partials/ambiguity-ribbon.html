@@ -1,0 +1,22 @@
+<div class="ambiguity-ribbon" aria-hidden="true">
+  <span class="ribbon-label">identity status:</span>
+  <span class="ribbon-value js-identity">UNCONFIRMED</span>
+</div>
+
+<script>
+(function(){
+  // tiny client-side mischief: pseudo-random flips
+  const el = document.querySelector('.js-identity');
+  if (!el) return;
+  const states = [
+    "UNCONFIRMED",
+    "HUMAN",
+    "MODEL",
+    "MERGED",
+    "REDACTED",
+    "404"
+  ];
+  const i = new Date().getSeconds() % states.length;
+  el.textContent = states[i];
+})();
+</script>

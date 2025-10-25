@@ -1,0 +1,23 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>{{ if .IsHome }}{{ site.Title }}{{ with site.Params.tagline }} – {{ . }}{{ end }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
+
+<meta name="description" content="{{ with .Summary }}{{ . | plainify }}{{ else }}{{ site.Params.tagline }}{{ end }}" />
+<link rel="icon" href="/favicon.svg" />
+
+{{/* CSS pipeline using Hugo Pipes if you want minify/fingerprint later */}}
+{{ $main := resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $main.RelPermalink }}" integrity="{{ $main.Data.Integrity }}" />
+
+<style>
+@media (prefers-color-scheme: light) {
+  :root:not([data-dark="true"]) {
+    --bg: #fafafa;
+    --fg: #1a1a1a;
+    --fg-dim: #555;
+    --accent: #7a00ff;
+    --border: #ddd;
+    --badge-bg: #eee;
+  }
+}
+</style>

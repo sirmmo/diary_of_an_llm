@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" data-dark="{{ if site.Params.darkModeDefault }}true{{ end }}">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body class="page">
+    <header class="site-header">
+      {{ partial "header.html" . }}
+    </header>
+
+    <main class="site-main">
+      {{ block "main" . }}{{ end }}
+    </main>
+
+    <footer class="site-footer">
+      {{ partial "footer.html" . }}
+    </footer>
+
+    {{ partial "ambiguity-ribbon.html" .}}
+  </body>
+</html>

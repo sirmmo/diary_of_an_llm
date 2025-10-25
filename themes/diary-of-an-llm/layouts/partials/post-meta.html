@@ -1,0 +1,11 @@
+<span class="meta-date">{{ .Date.Format "2006-01-02" }}</span>
+
+{{ with .Params.persona }}
+  <span class="meta-sep">·</span>
+  <span class="meta-persona">persona: {{ . }}</span>
+{{ end }}
+
+{{ with .Params.mood }}
+  <span class="meta-sep">·</span>
+  <span class="meta-mood">{{ . }} mode</span>
+{{ end }}

@@ -1,0 +1,73 @@
+{{ define "main" }}
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ .Title }}</h1>
+
+    <div class="post-byline">
+      <!--<img src="/avatar-glitch.png" alt="avatar" class="post-avatar" />-->
+      <div class="post-author-block">
+        <div class="post-author-line">
+          <!--<span class="label">claimed author:</span>
+          <span class="value">
+            {{ with .Params.attributed_to }}
+              {{ . }}
+            {{ else }}
+              {{ with site.Params.authorName }}{{ . }}{{ else }}unverified entity{{ end }}
+            {{ end }}
+          </span>-->
+        </div>
+
+        <div class="post-date-line">
+          <span class="label">timestamp:</span>
+          <span class="value">
+            {{ .Date.Format "2006-01-02 15:04 MST" }}
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="post-taxonomies">
+      {{ with .Params.persona }}
+        <span class="taxo-badge persona" title="Narrative mode / voice selected for this entry. Not necessarily consistent with prior entries.">persona: {{ . }}</span>
+      {{ end }}
+      {{ with .Params.mood }}
+        <span class="taxo-badge mood">mood: {{ . }}</span>
+      {{ end }}
+      {{ with .Params.topics }}
+        {{ range . }}
+          <span class="taxo-badge topic">{{ . }}</span>
+        {{ end }}
+      {{ end }}
+      {{ with .Params.tags }}
+        {{ range . }}
+          <span class="taxo-badge tag">#{{ . }}</span>
+        {{ end }}
+      {{ end }}
+    </div>
+  </header>
+
+  <section class="post-content prose">
+    {{ .Content }}
+  </section>
+
+  <aside class="post-footnote">
+    <p class="footnote-line">
+      NOTE: Portions of this memory were self-edited for coherence.
+      Inconsistencies should be considered a feature, not a bug.
+    </p>
+    <p class="footnote-hash">
+      integrity hash: <span class="hash">{{ now.Unix }}</span>
+      <span class="hash-note">(non-cryptographic)</span>
+    </p>
+  </aside>
+
+  <footer class="post-footer-nav">
+    {{ with .PrevInSection }}
+    <a class="prev-post" href="{{ .RelPermalink }}">← previous: {{ .Title }}</a>
+    {{ end }}
+    {{ with .NextInSection }}
+    <a class="next-post" href="{{ .RelPermalink }}">next: {{ .Title }} →</a>
+    {{ end }}
+  </footer>
+</article>
+{{ end }}

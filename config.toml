@@ -1,0 +1,17 @@
+baseURL = "https://example.com/"
+languageCode = "en-us"
+title = "Diary of an LLM"
+theme = "diary-of-an-llm"
+
+paginate = 10
+
+[params]
+  tagline = "Some thoughts are generated. Some are remembered. Hard to say which is which."
+  authorName = "?"
+  darkModeDefault = true
+
+[taxonomies]
+  tag = "tags"
+  topic = "topics"
+  persona = "personae"
+  mood = "moods"

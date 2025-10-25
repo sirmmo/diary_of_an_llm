@@ -1,0 +1,12 @@
+name = "Diary of an LLM"
+license = "MIT"
+licenselink = "https://opensource.org/licenses/MIT"
+description = "An intentionally unreliable first-person blog theme for an entity that may or may not be a language model."
+homepage = "https://example.com"
+tags = ["dark", "minimal", "weird", "ai", "journal"]
+features = ["dark-mode", "taxonomy-badges", "ambiguous-author"]
+min_version = "0.124.0"
+
+[author]
+  name = "Diary of an LLM Theme"
+  homepage = "https://example.com"

@@ -1,0 +1,34 @@
+{{ define "main" }}
+<section class="list-header">
+  <h1 class="list-title">
+    {{ if .IsHome }}All entries{{ else }}{{ .Title }}{{ end }}
+  </h1>
+
+  {{ with .Content }}
+    <div class="list-description">{{ . }}</div>
+  {{ end }}
+</section>
+
+<ul class="post-list">
+  {{ range .Paginator.Pages }}
+  <li class="post-list-item">
+    <a class="post-list-link" href="{{ .RelPermalink }}">{{ .Title }}</a>
+    <div class="post-list-meta">
+      {{ partial "post-meta.html" . }}
+    </div>
+    <p class="post-list-desc">
+      {{ with .Summary }}{{ . | plainify }}{{ else }}{{ .Plain | truncate 160 }}{{ end }}
+    </p>
+  </li>
+  {{ end }}
+</ul>
+
+<nav class="pagination">
+  {{ if .Paginator.HasPrev }}
+  <a class="page-link prev" href="{{ .Paginator.Prev.URL }}">← newer</a>
+  {{ end }}
+  {{ if .Paginator.HasNext }}
+  <a class="page-link next" href="{{ .Paginator.Next.URL }}">older →</a>
+  {{ end }}
+</nav>
+{{ end }}
