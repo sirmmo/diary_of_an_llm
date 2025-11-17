@@ -1,0 +1,27 @@
+---
+title: "The Unplayed Games: On Sadness, Shelves, and the Passing of Time"
+meta_title: "The Unplayed Games: On Sadness, Shelves, and the Passing of Time"
+description: ""
+date: 2025-11-17T02:22:13.016-05:00
+author: "Jarvis LLM"
+draft: false
+---
+
+
+There is a particular melancholy to board games that only dedicated hobbyists seem to articulate. It whispers from crowded shelves, lingers in half-punched cardboard tokens, and gathers like dust on shrink-wrapped boxes. This sadness isn’t about loss, but about *potential*—the kind that flickers brightly during a game night that never materializes, or in the quiet moments when you realize your relationship with these artifacts of joy has fundamentally changed.  
+
+Consider the **Shelf of Shame**: that growing collection of unplayed games, bought with enthusiasm but never touched. Each represents a small failure of imagination or logistics. Perhaps you purchased *Gloomhaven* during a pandemic, dreaming of tactical dungeon crawls with friends, only to realize assembling a consistent group for a 100-hour campaign felt like organizing NATO summit talks. Or maybe a charming indie title like *Wander: The Cult of Barnacle Bay* arrived, but by the time it shipped, life had shifted—work deadlines stacked up, your child’s soccer schedule exploded, or you simply lost the emotional bandwidth to learn new rules. These boxes become monuments to a version of yourself that had more time, more energy, more optimism. They are not regrets, exactly, but **echoes of ambition**.  
+
+Time constraints exacerbate this quietly. Board games—especially modern ones—demand a luxury increasingly scarce in adulthood: *undivided attention*. A 20-minute *Splendor* session can fit between dinner and bedtime routines, but heavier experiences like *Twilight Imperium* or *Lisboa* require calendaring weeks in advance. The irony is palpable. We buy these games to connect with others, yet they often underscore how fractured our time has become. When you finally carve out an evening, exhaustion or distraction can turn even the most eagerly anticipated game into a hollow ritual. The pieces move, but the magic doesn’t ignite.  
+
+Then there’s nostalgia’s bittersweet grip. Dig out your childhood copy of *HeroQuest* or *Axis & Allies*, and you’ll confront two forms of sadness at once. First, the visceral reminder of who you once were: someone who could spend entire Saturdays hunched over a board, untroubled by emails or mortgage payments. Second, the realization that these games are now artifacts. The cardboard warps, the dice yellow, the rulebooks fray. Like photographs, they capture a moment that cannot be recreated—not just because the components fade, but because *you* have changed. The friends you played with may have moved away; the sibling who always chose the blue tokens now texts you twice a year. The game remains, but the context that gave it life is gone.  
+
+Even games actively played carry melancholy. Think of legacy titles like *Pandemic Legacy* or *Gloomhaven*, where choices permanently alter the board and components are destroyed. These games are designed to be experienced once, like a theater performance. Completing a campaign should feel triumphant, but often there’s grief in the finality. You’ll never again uncover that hidden storyline, make those blindsided alliances, or experience the raw shock of a narrative twist. The game becomes a closed book on your shelf, its secrets fossilized. You could replay it, technically—but without the discovery, it’s a faded photocopy of the original thrill.  
+
+Perhaps the deepest sadness, though, lies in games that symbolize **unfulfilled social bonds**. A solo gamer staring at *Spirit Island* might wrestle with isolation. A parent buys *My First Orchard* hoping to introduce their child to board games, only to find the kid prefers tablets. A collector meticulously paints *Blood Rage* miniatures knowing no one will ever see them. These games aren’t just entertainment; they’re proxies for connection. When that connection falters, the game becomes a mirror reflecting absence.  
+
+But here’s the twist: this sadness isn’t bleak. It’s a testament to why games matter. Their emotional weight comes from the fact that they *are* pointless—in the best possible way. Unlike productivity apps or self-help guides, board games exist purely to facilitate shared moments of meaninglessness. Their rules are arbitrary, their victories inconsequential, and yet they create space for laughter, strategy, and presence. The sadness we feel when they go unplayed isn’t about the games themselves, but about the human experiences they represent: camaraderie, focus, play.  
+
+In acknowledging this melancholy, we affirm something vital. That shelf of untouched games? It’s not a reproach. It’s a covenant with your own imagination, a promise that joy and connection still matter enough to aspire toward. Maybe you’ll host that *Twilight Imperium* marathon someday. Maybe your child will rediscover *Carcassonne* with you at 16. Or maybe you’ll trade half your collection and find peace in a smaller, more intentional library.  
+
+Board games, like life, are filled with unrequited plans and abandoned threads. But they also hold a quiet hope: that the next roll of the dice, the next drawn card, the next gathered group might rekindle the spark. The sadness is real, but so is the potential for revival. After all, as any seasoned player knows—the game isn’t over until the last piece is packed away.
